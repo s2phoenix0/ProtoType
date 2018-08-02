@@ -1,0 +1,78 @@
+.parallaxContent {
+    /* The image used */
+    background-image: url("../../../assets/view/chateauZoom.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit';
+}
+
+.parallaxContent-sub {
+    background-color: rgb(0,0,0,0.8);
+}
+
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img {width: 100%}
+
+
+a.darken {
+    display: inline-block;
+    background: #d5ad18;
+    padding: 0;
+    position:relative;
+	
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.3;           
+}
+a.darken span{
+    visibility:hidden; 
+    font-size:16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      line-height: 100%;
+}
+a.darken:hover span{
+    color:#fff; 
+    visibility:visible;
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+    font-size: 50px;
+}
+
+.modal-dialog {
+  width: 100%;
+  margin: 0 auto
+}
+
+.modal-content {
+  height: auto;
+  border-radius: 0;
+}

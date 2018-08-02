@@ -1,0 +1,34 @@
+.parallaxContent {
+    /* The image used */
+    background-image: url("../../../assets/bts.jpg");
+
+    /* Set a specific height */
+/*    min-height: 400px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit';
+}
+
+.parallaxContent-sub{
+    background-color: rgb(255,255,255,0.8);
+}
+.table1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iconhead {
+    font-size: 70px;
+}
+.header{
+    font-size: 40px;
+}
+.detail{
+    padding-top: 20px;
+    font-size: 24px;
+    padding-bottom: 85px;
+}

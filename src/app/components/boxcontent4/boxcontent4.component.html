@@ -1,0 +1,91 @@
+<div class="parallaxContent">
+    <div class="">
+       <div class="container-fluid">
+           <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-5 parallaxContent-sub">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">
+                                <img class="brandIMG" src="../../../assets/logo.gif" width="100%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;" class="rowHeader tRow">
+                                ลงทะเบียนออนไลน์
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow">
+                                <input type="text" class="form-control" placeholder="ชื่อ - นามสกุล" (keyup)="onKey($event)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow">
+                                <input type="text" class="form-control" placeholder="เบอร์โทศัพท์" (keyup)="onKey($event)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow">
+                                <input type="text" class="form-control" placeholder="อีเมล" (keyup)="onKey($event)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow">
+                                <input type="text" class="form-control" placeholder="ไลน์ไอดี" (keyup)="onKey($event)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow"v>
+                                <div class="dropdown">
+                                <button class="btn btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white;">{{optionValue1}}</button>
+                                <div class="dropdown-menu btn-block">
+                                    <a (click)="changeOption1($event, '1 ห้องนอน')" class="dropdown-item" >1 ห้องนอน</a>
+                                    <a (click)="changeOption1($event, '2 ห้องนอน')" class="dropdown-item" >2 ห้องนอน</a>
+                                </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tRow">
+                                <button class="btn btn-block btn-warning" type="submit" (click)="submitForm()">ลงทะเบียน</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-lock" aria-hidden="true" style="color: black;"></i> รับรองความปลอดภัยข้อมูล
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-check" aria-hidden="true"></i> เดินทางสะดวกใกล้สถานี BTS บางจาก
+                                <br>
+                                <i class="fa fa-check" aria-hidden="true"></i> ใกล้ศูนย์การค้าหลากหลายแห่ง
+                                <br>
+                                <i class="fa fa-check" aria-hidden="true"></i> การออกแบบสไตล์รีสอร์ทริมทะเล
+                                <br>
+                                <i class="fa fa-check" aria-hidden="true"></i> สิ่งอำนวยความสะดวกต่างๆ อีกมากมาย
+                                <br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>                
+            </div>
+            <div class="col-sm-6">
+            </div>
+           </div>
+        </div>
+    </div>
+</div>

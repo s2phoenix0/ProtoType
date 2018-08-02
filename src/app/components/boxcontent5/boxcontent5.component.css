@@ -1,0 +1,42 @@
+.parallaxContent {
+    /* The image used */
+    background-image: url("../../../assets/view/chateauZoom.jpg");
+
+    /* Set a specific height */
+/*    min-height: 600px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit';
+}
+
+.parallaxContent-sub {
+    background-color: rgb(0,0,0,0.8);
+}
+
+img {
+    width: 100%;
+}
+
+.subContent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.innerContent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.col1 {
+    font-size: 30px;
+}
+
+.col3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
